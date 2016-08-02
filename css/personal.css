@@ -1,43 +1,25 @@
-body{
-  background-color: #F3F0EB;
-}
-.container{
+body,
+html {
   width: 100%;
-  text-align: center;
+  height: 100%;
 }
-h1{
-  color: #F06E68;
-  display: block;
-  font-family: 'Avenir', sans-serif;
-  font-size: 42px;
-  font-weight: normal;
-  line-height: 100%;
-  letter-spacing: normal;
+
+/*Fonts*/
+
+/*Navbar*/
+.navbar {
+  background-color: white;
+  margin-top: 2%;
+  border-top: 0;
 }
-p{
-  color: #F06E68;
-  display: block;
-  font-family: 'Avenir', sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
-  line-height: 100%;
-  letter-spacing: normal;
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
 }
-i{
-  color: black;
-}
-#social li{
-  display: inline;
-  padding: 5px;
-}
-#social{
-  padding: 10px;
-}
-@media only screen and (max-width: 520px){
-  h1{
-    font-size: 32px;
-  }
-  p{
-    font-size: 14px;
-  }
+
+
+/*Mobile*/
+
+.navbar {
+  margin-top: none;
 }
